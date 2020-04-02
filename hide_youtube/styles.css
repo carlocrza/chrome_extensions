@@ -1,0 +1,19 @@
+body {
+	visibility: hidden !important;
+}
+
+iframe {
+	visibility: visible !important;
+}
+
+#no_video_found {
+	visibility: visible !important;
+}
+
+iron-dropdown {
+	visibility: visible !important;
+}
+
+ytd-topbar-menu-button-renderer {
+	visibility: visible !important;
+}

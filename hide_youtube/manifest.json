@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "YT",
+  "version": "0.1.0",
+  "description": "Hide YT",
+ 
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["script.js"],
+    "matches": ["https://*.youtube.com/*"]
+  }]
+ 
+}
